@@ -115,7 +115,7 @@ public class UserService {
 
 ### **`UserManager.java`**
 ```java
-// ✅ SRP: Solo coordinar y manejar errores
+// Coordinar y manejar errores
 public class UserManager {
     public void createUser(...) {
         try {
